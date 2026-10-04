@@ -17,10 +17,9 @@ The third's processing sequence is reproduced and tested here.
 
 `data/manifest.json` records every retained artifact's SHA-256 checksum, role, and
 provenance. For CSVs it also records column order and row count; for PDFs, page
-count. Git line-ending conversion is disabled for `data/` so committing or checking out
-the repository preserves these checksums. A changed checksum stops the workflow. Review a legitimate data revision
-and its provenance before updating the manifest; do not regenerate baselines just
-to make a failed check pass.
+count. Git line-ending conversion is disabled for `data/` to preserve these
+checksums across commits and checkouts. A changed checksum stops the workflow.
+Review a data revision and its provenance before updating the manifest.
 
 ## Recovered public extraction evidence
 
@@ -123,3 +122,21 @@ The PDF reader uses the documented
 [pypdf page-reading interface](https://pypdf.readthedocs.io/en/stable/user/extract-text.html).
 Reading text from a PDF is not a replacement for recovering the original OCR
 procedure or checking table semantics.
+
+## Generated outputs
+
+`make reproduce` runs `pipeline.py` and writes the following files to `build/`.
+It uses the checked-in sources and requires no API keys or network access after
+installing the Python dependencies. Generated files are excluded from Git.
+
+| Output | Contents |
+| --- | --- |
+| `gp_2014_delim_reconstructed.csv`, `gp_2019_delim_reconstructed.csv` | Historical seven-column processing results, checked against ordered table fingerprints |
+| `lineage_2014.csv`, `lineage_2019.csv` | Source CSV rows, positions within old-village cells, and inferred original PDF pages for each output row |
+| `recovered_ocr_2014.csv`, `recovered_ocr_2019.csv` | Table rows reconstructed from the published cell JSON without filling merged cells |
+| `reconciliation_2014.json`, `reconciliation_2019.json` | Exact row differences between the OCR archives and the extraction CSVs |
+| `report.json` | Column profiles, processing counts, page coverage, split-file overlaps, and outstanding data-quality issues |
+
+To run from another directory, invoke `pipeline.py` by its full path. Use
+`--output-dir` to choose a different location for generated files. The source
+paths default to the directory containing the script.
