@@ -1,0 +1,341 @@
+{
+  "dataset": {
+    "doi": "10.7910/DVN/SBF7DP",
+    "version": "6.0",
+    "url": "https://doi.org/10.7910/DVN/SBF7DP",
+    "metadata_checked": "2026-10-04"
+  },
+  "files": [
+    {
+      "path": "data/intermediate/gp_2014_delim_orig_sub.csv",
+      "sha256": "da98df925e05d8b26a8c64e1d2be2a7c4063b854d603299256ad714a05981bb9",
+      "bytes": 1166150,
+      "kind": "csv",
+      "fields": [
+        "",
+        "original_filename",
+        "page",
+        "col1",
+        "col2",
+        "col3",
+        "col4",
+        "col5",
+        "col6",
+        "col7",
+        "col8"
+      ],
+      "rows": 6961,
+      "role": "Inherited extraction table",
+      "provenance": "Repository snapshot at 55ecb663cf402bac0bd4d0408ad5c28651b1c014"
+    },
+    {
+      "path": "data/intermediate/gp_2019_delim_orig_sub.csv",
+      "sha256": "2b09a1ac3fc6de66e62aac00d64a7cd4f11a1f4a62057f8dee5620cabab8dc69",
+      "bytes": 1442162,
+      "kind": "csv",
+      "fields": [
+        "",
+        "original_filename",
+        "page",
+        "col1",
+        "col2",
+        "col3",
+        "col4",
+        "col5",
+        "col6",
+        "col7",
+        "col8",
+        "col9",
+        "col10"
+      ],
+      "rows": 5842,
+      "role": "Inherited extraction table",
+      "provenance": "Repository snapshot at 55ecb663cf402bac0bd4d0408ad5c28651b1c014"
+    },
+    {
+      "path": "data/processed/gp_2014_delim_processed.csv",
+      "sha256": "24eab4b57a910e89530b0b42a0077aa80d553f43488788566c0905775ae8bda1",
+      "bytes": 1529972,
+      "dataverse": {
+        "file_id": 7465072,
+        "filename": "2014_gp_to_village.tab",
+        "md5": "fc4c29bb8a78e6a3432699f6eb5e8359",
+        "url": "https://dataverse.harvard.edu/api/access/datafile/7465072"
+      },
+      "kind": "csv",
+      "fields": [
+        "current_gp_name",
+        "old_gp_villages",
+        "old_gp_village_fixed",
+        "district",
+        "ps",
+        "order",
+        "gp_goog_translate",
+        "gp_village_goog_translate",
+        "ps_goog_translate",
+        "gp_village_fixed"
+      ],
+      "rows": 11819,
+      "role": "Inherited processed table; includes unreviewed extraction or enrichment",
+      "provenance": "Local uncommitted enriched file preserved byte-for-byte; enrichment workflow unknown"
+    },
+    {
+      "path": "data/processed/gp_2019_delim_processed.csv",
+      "sha256": "b02ed528ee6bacb192da372ba5784512c97f5125dec73d062a8ad3a4a6d35fd0",
+      "bytes": 3802043,
+      "kind": "csv",
+      "fields": [
+        "original_filename",
+        "page",
+        "sr_no",
+        "current_gp_name",
+        "old_gp_villages",
+        "new_or_reconstituted_gp_name",
+        "new_gp_villages"
+      ],
+      "rows": 16787,
+      "role": "Inherited processed table; includes unreviewed extraction or enrichment",
+      "provenance": "Repository snapshot at 55ecb663cf402bac0bd4d0408ad5c28651b1c014"
+    },
+    {
+      "path": "data/sources/Corrigendum_del_2019.pdf",
+      "sha256": "ff5b688826a3ed020df50912932254453561978de91232c4d497589a9110339c",
+      "bytes": 1330455,
+      "dataverse": {
+        "file_id": 7316076,
+        "filename": "Corrigendum_del_2019.pdf",
+        "md5": "c7c1b1a084fb39c6360c8c1329aacdc8",
+        "url": "https://dataverse.harvard.edu/api/access/datafile/7316076"
+      },
+      "kind": "pdf",
+      "pages": 22,
+      "role": "Supplementary delimitation notification; incorporation into CSVs unverified",
+      "provenance": "Repository snapshot at 55ecb663cf402bac0bd4d0408ad5c28651b1c014"
+    },
+    {
+      "path": "data/sources/Delimitation Summary16012015.pdf",
+      "sha256": "3d841dba3598110f9a6cda08d25d6ebea7779c43ab08c4f180ae26c9b5307123",
+      "bytes": 387932,
+      "dataverse": {
+        "file_id": 7316077,
+        "filename": "Delimitation Summary16012015.pdf",
+        "md5": "28f515e58074d05ad3c3c008e2d0ecf7",
+        "url": "https://dataverse.harvard.edu/api/access/datafile/7316077"
+      },
+      "kind": "pdf",
+      "pages": 3,
+      "role": "Supplementary delimitation notification; incorporation into CSVs unverified",
+      "provenance": "Repository snapshot at 55ecb663cf402bac0bd4d0408ad5c28651b1c014"
+    },
+    {
+      "path": "data/sources/Delimitation_Amendment_29012020.pdf",
+      "sha256": "dbae69e60591a626bd733f2a22ee2b1ad84419594f0a40f9432f48e656ae529d",
+      "bytes": 399805,
+      "dataverse": {
+        "file_id": 7280194,
+        "filename": "Delimitation_Amendment_29012020.pdf",
+        "md5": "3677b002825f2847b2980ad7db903f64",
+        "url": "https://dataverse.harvard.edu/api/access/datafile/7280194"
+      },
+      "kind": "pdf",
+      "pages": 8,
+      "role": "Supplementary delimitation notification; incorporation into CSVs unverified",
+      "provenance": "Repository snapshot at 55ecb663cf402bac0bd4d0408ad5c28651b1c014"
+    },
+    {
+      "path": "data/sources/GPA_3095_3116.pdf",
+      "sha256": "739cb74f7b97be2db8c12c8ed327653975ad216eb40fdce25bf6e76bfaaf97a7",
+      "bytes": 1442070,
+      "dataverse": {
+        "file_id": 7316075,
+        "filename": "GPA_3095_3116.pdf",
+        "md5": "d044562738069d4d2a119e8e74bee32c",
+        "url": "https://dataverse.harvard.edu/api/access/datafile/7316075"
+      },
+      "kind": "pdf",
+      "pages": 68,
+      "role": "Supplementary delimitation notification; incorporation into CSVs unverified",
+      "provenance": "Repository snapshot at 55ecb663cf402bac0bd4d0408ad5c28651b1c014"
+    },
+    {
+      "path": "data/sources/GPNEW_3117.pdf",
+      "sha256": "05c91079735e6ae98b43f4c62bfbbb48bb3619c30f3fe769aa4fe26216cbbfc1",
+      "bytes": 1647474,
+      "dataverse": {
+        "file_id": 7316074,
+        "filename": "GPNEW_3117.pdf",
+        "md5": "cf6a77beb44159cd31d159b6ea233b98",
+        "url": "https://dataverse.harvard.edu/api/access/datafile/7316074"
+      },
+      "kind": "pdf",
+      "pages": 59,
+      "role": "Supplementary delimitation notification; incorporation into CSVs unverified",
+      "provenance": "Repository snapshot at 55ecb663cf402bac0bd4d0408ad5c28651b1c014"
+    },
+    {
+      "path": "data/sources/GP_Delimitation_12122019.pdf",
+      "sha256": "dc040cd7cb29306ae1d7d07cb7c39dec601a87c53007b79f23f890675d405e3f",
+      "bytes": 549694,
+      "dataverse": {
+        "file_id": 7280197,
+        "filename": "GP_Delimitation_12122019.pdf",
+        "md5": "a01a0aba0a6ff70969f696b2a41c55a0",
+        "url": "https://dataverse.harvard.edu/api/access/datafile/7280197"
+      },
+      "kind": "pdf",
+      "pages": 15,
+      "role": "Supplementary delimitation notification; incorporation into CSVs unverified",
+      "provenance": "Repository snapshot at 55ecb663cf402bac0bd4d0408ad5c28651b1c014"
+    },
+    {
+      "path": "data/sources/GP_Delimitation_2019_Final.pdf",
+      "sha256": "323126f83ba090f3a9fc8c474d876b688a7d8740306dbd494d75a26295999888",
+      "bytes": 14867308,
+      "dataverse": {
+        "file_id": 7280195,
+        "filename": "GP_Delimitation_2019_Final.pdf",
+        "md5": "c5a0814458708f2e9c5b40c8658cff9f",
+        "url": "https://dataverse.harvard.edu/api/access/datafile/7280195"
+      },
+      "kind": "pdf",
+      "pages": 701,
+      "role": "GP delimitation document linked to inherited extractions",
+      "provenance": "Repository snapshot at 55ecb663cf402bac0bd4d0408ad5c28651b1c014"
+    },
+    {
+      "path": "data/sources/GP_Delimitation_2019_Final_json.tar.gz",
+      "sha256": "97e309e564cf835d663e3cde6d940db6ce3ab0a6abd743a8dac517579b5fe785",
+      "bytes": 1800302,
+      "dataverse": {
+        "file_id": 7317955,
+        "filename": "GP_Delimitation_2019_Final_json.tar.gz",
+        "md5": "b2acfed65e6e2d397b1342f0b2f06d62",
+        "url": "https://dataverse.harvard.edu/api/access/datafile/7317955"
+      },
+      "kind": "ocr_archive",
+      "role": "Published OCR cell JSON; recovered from Dataverse v6.0, not an exact source of inherited CSVs",
+      "provenance": "Dataverse v6.0 download"
+    },
+    {
+      "path": "data/sources/NewlyCreatedGPs19012015.pdf",
+      "sha256": "446ced271c28538436271e120291af5b57b2e13e295f049e4710b5532ddb4229",
+      "bytes": 1356871,
+      "kind": "pdf",
+      "pages": 10,
+      "role": "Supplementary delimitation notification; incorporation into CSVs unverified",
+      "provenance": "Repository snapshot at 55ecb663cf402bac0bd4d0408ad5c28651b1c014"
+    },
+    {
+      "path": "data/sources/PS_3118.pdf",
+      "sha256": "4df7ea30b2e9601f504aa5572e5f376a833470b9de7e5751f57c283f78b1f2a5",
+      "bytes": 1384388,
+      "dataverse": {
+        "file_id": 7316073,
+        "filename": "PS_3118_2019_Dec_2.pdf",
+        "md5": "90ceb61be5f32ddfda39f882cc89278d",
+        "url": "https://dataverse.harvard.edu/api/access/datafile/7316073"
+      },
+      "kind": "pdf",
+      "pages": 50,
+      "role": "Supplementary delimitation notification; incorporation into CSVs unverified",
+      "provenance": "Repository snapshot at 55ecb663cf402bac0bd4d0408ad5c28651b1c014"
+    },
+    {
+      "path": "data/sources/PS_Delimitation_12122019.pdf",
+      "sha256": "dc6bc8985eeca5b7a0b8dc989ea63d6f8765a300fc2e3f1dded4f75bb93526dd",
+      "bytes": 441114,
+      "dataverse": {
+        "file_id": 7280196,
+        "filename": "PS_Delimitation_12122019.pdf",
+        "md5": "80d6aa79561a99347ba9f97806779c6a",
+        "url": "https://dataverse.harvard.edu/api/access/datafile/7280196"
+      },
+      "kind": "pdf",
+      "pages": 12,
+      "role": "Supplementary delimitation notification; incorporation into CSVs unverified",
+      "provenance": "Repository snapshot at 55ecb663cf402bac0bd4d0408ad5c28651b1c014"
+    },
+    {
+      "path": "data/sources/PS_Delimitation_2019_Final.pdf",
+      "sha256": "5c1ccfa1c2d7bb06e7840f06430d46ad4fc4c66c9fd5bd8cd814aea3817e3986",
+      "bytes": 3534665,
+      "dataverse": {
+        "file_id": 7280198,
+        "filename": "PS_Delimitation_2019_Final.pdf",
+        "md5": "4d0550a90f73d4eaf53b36abf14ec401",
+        "url": "https://dataverse.harvard.edu/api/access/datafile/7280198"
+      },
+      "kind": "pdf",
+      "pages": 143,
+      "role": "Supplementary delimitation notification; incorporation into CSVs unverified",
+      "provenance": "Repository snapshot at 55ecb663cf402bac0bd4d0408ad5c28651b1c014"
+    },
+    {
+      "path": "data/sources/delimitation_2014.pdf",
+      "sha256": "3f324e2f4fc51f6df2074c2514a50d4ed278d0ce4c310ff6eec6d2a59a9a60d9",
+      "bytes": 2866995,
+      "dataverse": {
+        "file_id": 7280193,
+        "filename": "gp_delimitation_2014.pdf",
+        "md5": "8a8c6ee83d9703152c5bd6608cc9a19d",
+        "url": "https://dataverse.harvard.edu/api/access/datafile/7280193"
+      },
+      "kind": "pdf",
+      "pages": 316,
+      "role": "GP delimitation document linked to inherited extractions",
+      "provenance": "Repository snapshot at 55ecb663cf402bac0bd4d0408ad5c28651b1c014"
+    },
+    {
+      "path": "data/sources/gp_delimitation_2014.tar.gz",
+      "sha256": "2a9d903251205599e57ee5311c306b5423f90a6092ff7e284fede6b15e727ee7",
+      "bytes": 1933897,
+      "dataverse": {
+        "file_id": 7327669,
+        "filename": "gp_delimitation_2014.tar.gz",
+        "md5": "13599e03cafbaddf18a5b861e586f015",
+        "url": "https://dataverse.harvard.edu/api/access/datafile/7327669"
+      },
+      "kind": "ocr_archive",
+      "role": "Published OCR cell JSON; recovered from Dataverse v6.0, not an exact source of inherited CSVs",
+      "provenance": "Dataverse v6.0 download"
+    },
+    {
+      "path": "data/sources/nyu_2451_42205_census_2001.zip",
+      "sha256": "b31ed74178dffefca08f81940a6159cff37a0d9a44271ec2b2b05f83651a078e",
+      "bytes": 25330738,
+      "kind": "zip",
+      "role": "Census 2001 Rajasthan village geography; not joined to delimitation data",
+      "provenance": "Repository snapshot at 55ecb663cf402bac0bd4d0408ad5c28651b1c014"
+    }
+  ],
+  "reconstructions": {
+    "2014": {
+      "rows": 13424,
+      "table_sha256": "6044db1e7721c11db5502c5e35a9eaf125b53fbe0197c1808be53b9dd11c8956",
+      "reference": "git:55ecb663cf402bac0bd4d0408ad5c28651b1c014:data/gp_2014_delim_processed.csv",
+      "fields": [
+        "original_filename",
+        "page",
+        "sr_no",
+        "current_gp_name",
+        "old_gp_villages",
+        "new_or_reconstituted_gp_name",
+        "new_gp_villages"
+      ]
+    },
+    "2019": {
+      "rows": 16787,
+      "table_sha256": "13ccd4e5d59d9799057fae86918e858fdfccdde3b29e3f9ba3bda6f0645d0930",
+      "reference": "git:55ecb663cf402bac0bd4d0408ad5c28651b1c014:data/gp_2019_delim_processed.csv",
+      "fields": [
+        "original_filename",
+        "page",
+        "sr_no",
+        "current_gp_name",
+        "old_gp_villages",
+        "new_or_reconstituted_gp_name",
+        "new_gp_villages"
+      ]
+    }
+  }
+}
